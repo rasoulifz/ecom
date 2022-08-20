@@ -1,0 +1,142 @@
+.card-boxes {
+  padding: 5px 20px;
+  align-items: center;
+  margin: 1rem 3rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  width: 40%;
+  height: 30rem;
+  position: relative;
+}
+.card-boxes .image {
+  align-items: center;
+  margin: 1rem 0;
+  width: 100%;
+}
+.card-boxes .image img {
+  align-items: center;
+  width: 100%;
+  border-top: 0.5rem solid #3ab15d;
+}
+.card-boxes .content .title {
+  position: absolute;
+  left: 3rem;
+  top: 0.4rem;
+  background-color: #3ab15d;
+  padding: 10px;
+  border-radius: 35px;
+  align-items: center;
+  width: 80%;
+  align-content: center;
+}
+.card-boxes .content .description {
+  width: 100%;
+}
+
+.card-boxes .content .title h3 {
+  font-size: 1rem;
+  color: white;
+  width: 23em;
+  height: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  font-weight: bolder;
+  width: 95%;
+}
+.card-boxes .content .description h4 {
+  font-size: 1rem;
+  color: #666;
+  padding: 0.5rem 0;
+  line-height: 2em;
+  height: 9em; /* height is 2x line-height, so two lines will display */
+  overflow: hidden;
+  text-overflow: clip;
+}
+.card-boxes .btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.6rem 2rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  background: #3ab15d;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.card-boxes .btn:hover {
+  background: #30944e;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .card-boxes {
+    padding: 5px 20px;
+    align-items: center;
+    margin: 1rem 1rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    width: 95%;
+    height: 30rem;
+    position: relative;
+  }
+  .card-boxes .image {
+    align-items: center;
+    margin: 1rem 0;
+    width: 100%;
+  }
+  .card-boxes .image img {
+    align-items: center;
+    width: 100%;
+    border-top: 0.5rem solid #3ab15d;
+  }
+  .card-boxes .content .title {
+    position: absolute;
+    left: 3rem;
+    top: 0.4rem;
+    background-color: #3ab15d;
+    padding: 10px;
+    border-radius: 35px;
+    align-items: center;
+    width: 80%;
+    align-content: center;
+  }
+  .card-boxes .content .description {
+    width: 100%;
+  }
+  
+  .card-boxes .content .title h3 {
+    font-size: 1rem;
+    color: white;
+    width: 23em;
+    height: 1.2em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    font-weight: bolder;
+    width: 95%;
+  }
+  .card-boxes .content .description h4 {
+    font-size: 1rem;
+    color: #666;
+    padding: 0.5rem 0;
+    line-height: 2em;
+    height: 9em; /* height is 2x line-height, so two lines will display */
+    overflow: hidden;
+    text-overflow: clip;
+  }
+  .card-boxes .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.6rem 2rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background: #3ab15d;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .card-boxes .btn:hover {
+    background: #30944e;
+    color: #fff;
+  }
+}

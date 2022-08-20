@@ -1,0 +1,117 @@
+.box-card {
+  width: 33%;
+
+}
+.box-item {
+  margin: 2rem 0;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+
+.box-item:hover {
+  border: 0.1rem solid #444;
+}
+
+.box-item .image {
+  height: 12rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.box-item .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.box-item:hover .image img {
+  transform: scale(1.1);
+}
+
+.box-item .content {
+  padding: 1.5rem;
+}
+
+.box-item .content h3 {
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1em;
+  height: 2.2em;       /* height is 2x line-height, so two lines will display */
+  overflow: hidden; 
+  text-overflow: clip;
+}
+
+.box-item .content p {
+  font-size: .8rem;
+  color: #666;
+  padding: 1rem 0;
+  line-height: 2em;
+  height: 9em;       /* height is 2x line-height, so two lines will display */
+  overflow: hidden; 
+  text-overflow: clip;
+
+}
+@media only screen and (max-width: 768px) {
+  .box-card {
+    width: 33%;
+  
+  }
+  .box-item {
+    margin: 2rem 0;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .box-item:hover {
+    border: 0.1rem solid #444;
+  }
+  
+  .box-item .image {
+    height: 8rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .box-item .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .box-item:hover .image img {
+    transform: scale(1.1);
+  }
+  
+  .box-item .content {
+    padding: .5rem;
+  }
+  
+  .box-item .content h3 {
+    font-size: .8rem;
+    color: #444;
+    line-height: 1em;
+    height: 1em;       /* height is 2x line-height, so two lines will display */
+    overflow: hidden; 
+    text-overflow: clip;
+  }
+  
+  .box-item .content p {
+    font-size: .6rem;
+    color: #666;
+    padding: .6rem 0;
+    line-height: 1.5em;
+    height: 7em;       /* height is 2x line-height, so two lines will display */
+    overflow: hidden; 
+    text-overflow: clip;
+  
+  }
+  .box-card .box-item .content .btn{
+    display: inline-block;
+    border-radius: 0.5rem;
+    color: #fff;
+    background: #3ab15d;
+    font-size: .8rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+}

@@ -1,0 +1,77 @@
+.arrival-box {
+  width: 31%;
+  height: 100%;
+  gap: 2rem;
+}
+.box {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+  text-decoration: none;
+  height: 100%;
+}
+.box:hover {
+  border: 0.1rem solid #444;
+}
+.box .image img {
+  height: 8rem;
+  width: 80%;
+}
+.box .content h3 {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1em;
+  height: 2em; /* height is 2x line-height, so two lines will display */
+  overflow: hidden;
+}
+.box .content .price {
+  font-size: 0.8rem;
+  color: #444;
+  padding-bottom: 0.5rem;
+}
+.box .content .price span {
+  font-size: 0.8rem;
+  color: #666;
+  text-decoration: line-through;
+}
+@media only screen and (max-width: 768px) {
+  .arrival-box {
+    width: 49%;
+    height: 100%;
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 0.3rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    margin: 0.3rem 0;
+    text-decoration: none;
+    height: 100%;
+  }
+  .box:hover {
+    border: 0.1rem solid #444;
+  }
+  .box .image img {
+    height: 8rem;
+    width: 80%;
+  }
+  .box .content h3 {
+    font-size: 0.8rem;
+    color: #444;
+    line-height: 1em;
+    height: 2em; /* height is 2x line-height, so two lines will display */
+    overflow: hidden;
+  }
+  .box .content .price {
+    font-size: 0.8rem;
+    color: #444;
+    padding-bottom: 0.5rem;
+  }
+  .box .content .price span {
+    font-size: 0.8rem;
+    color: #666;
+    text-decoration: line-through;
+  }
+}

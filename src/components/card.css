@@ -1,0 +1,175 @@
+.card {
+  margin: 2rem 0;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  width: 22%;
+  margin: 0 15px;
+  padding-bottom: 10px;
+  
+}
+.card:hover {
+  border: 0.1rem solid #444;
+}
+.card .image {
+  padding: 1rem;
+  background: linear-gradient(15deg, #eee 30%, #fff 30.1%);
+}
+.card:hover .image {
+  transform: translateY(3rem);
+}
+.card .image img {
+  height: 12rem;
+  width: 80%;
+}
+.card .icons {
+  border-bottom: 0.1rem solid #444;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 1;
+  transform: translateY(-100%);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.card:hover .icons {
+  transform: translateY(0%);
+}
+.card .icons a {
+  color: #444;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+}
+.card .icons a:hover {
+  background: #3ab15d;
+  color: #fff;
+  border-radius: 4rem;
+  font-size: .8rem;
+  
+}
+.card .content{
+    background:#eee;
+}
+
+.card .content h3{
+    font-size: 1.2rem;
+    color:#444;
+    line-height: 1em;
+    height: 2em;       /* height is 2x line-height, so two lines will display */
+    overflow: hidden; 
+}
+
+.card .content .price{
+    font-size: 1.1rem;
+    color:#444;
+    padding-top: 1rem;
+}
+
+.card .content .price span{
+    font-size: 1.1rem;
+    color:#666;
+    text-decoration: line-through;
+}
+.btn{
+    margin-top: 1rem;
+    display:inline-block;
+    padding:.4rem 1.5rem;
+    border-radius: .5rem;
+    color:#fff;
+    background:#3ab15d;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    margin: 1rem 0;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 44%;
+    margin: 0 10px;
+    padding-bottom: 10px;
+    
+  }
+  .card:hover {
+    border: 0.1rem solid #444;
+  }
+  .card .image {
+    padding: 1rem;
+    background: linear-gradient(15deg, #eee 30%, #fff 30.1%);
+  }
+  .card:hover .image {
+    transform: translateY(3rem);
+  }
+  .card .image img {
+    height: 5rem;
+    width: 70%;
+  }
+  .card .icons {
+    border-bottom: 0.1rem solid #444;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 1;
+    transform: translateY(-100%);
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+  }
+  .card:hover .icons {
+    transform: translateY(0%);
+  }
+  .card .icons a {
+    color: #444;
+    font-size: .8rem;
+    padding: .5rem .5rem;
+  }
+  .card .icons a:hover {
+    background: #3ab15d;
+    color: #fff;
+    border-radius: 4rem;
+    font-size: .8rem;
+    
+  }
+  .card .content{
+      background:#eee;
+  }
+  
+  .card .content h3{
+      font-size: .9em;
+      color:#444;
+      line-height: 1em;
+      height: 2em;       /* height is 2x line-height, so two lines will display */
+      overflow: hidden; 
+  }
+  
+  .card .content .price{
+      font-size: 1rem;
+      color:#444;
+     
+  }
+  
+  .card .content .price span{
+      font-size: 1rem;
+      color:#666;
+      text-decoration: line-through;
+  }
+  .btn{
+      margin-top: .2rem;
+      display:inline-block;
+      padding:.2rem .5rem;
+      border-radius: .5rem;
+      color:#fff;
+      background:#3ab15d;
+      font-size: 1rem;
+      cursor: pointer;
+      font-weight: 500;
+  }
+
+}
